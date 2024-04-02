@@ -25,5 +25,3 @@ tensorflow-cpu==2.4.1
 !python -m virtualenv your_venv
 !your_venv/Scripts/activate
 !pip install -r requirements.txt
-
-!streamlit run app.py
