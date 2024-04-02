@@ -19,3 +19,11 @@ tensorflow-cpu==2.4.1
 # librosa==0.8.0
 # streamlit==0.81.1
 # tensorflow-cpu==2.4.1
+
+!git clone https://github.com/CyberMaryVer/speech-emotion-webapp.git
+!cd speech-emotion-webapp
+!python -m virtualenv your_venv
+!your_venv/Scripts/activate
+!pip install -r requirements.txt
+
+!streamlit run app.py
